@@ -6,7 +6,7 @@
 %define		pdir	URI
 %define		pnam	imaps
 Summary:	URI::imaps - Support IMAPS URI
-Summary(pl):	URI::imaps - Wsparcie dla URI IMAPS
+Summary(pl.UTF-8):   URI::imaps - Wsparcie dla URI IMAPS
 Name:		perl-URI-imaps
 Version:	1.01
 Release:	1
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Support IMAPS schemas with URI.
 
-%description -l pl
-Wsparcie dla schematów IMAPS z URI.
+%description -l pl.UTF-8
+Wsparcie dla schematÃ³w IMAPS z URI.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
