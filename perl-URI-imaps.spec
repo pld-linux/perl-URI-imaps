@@ -6,7 +6,7 @@
 %define		pdir	URI
 %define		pnam	imaps
 Summary:	URI::imaps - Support IMAPS URI
-Summary(pl.UTF-8):   URI::imaps - Wsparcie dla URI IMAPS
+Summary(pl.UTF-8):	URI::imaps - Wsparcie dla URI IMAPS
 Name:		perl-URI-imaps
 Version:	1.01
 Release:	1
