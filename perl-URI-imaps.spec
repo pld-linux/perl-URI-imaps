@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	URI
 %define		pnam	imaps
+%include	/usr/lib/rpm/macros.perl
 Summary:	URI::imaps - Support IMAPS URI
 Summary(pl.UTF-8):	URI::imaps - Wsparcie dla URI IMAPS
 Name:		perl-URI-imaps
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0fdb2371e9f64ea7acbe385ca8d8a708
+URL:		http://search.cpan.org/dist/URI-imaps/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
