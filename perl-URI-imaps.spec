@@ -4,7 +4,6 @@
 
 %define		pdir	URI
 %define		pnam	imaps
-%include	/usr/lib/rpm/macros.perl
 Summary:	URI::imaps - Support IMAPS URI
 Summary(pl.UTF-8):	URI::imaps - Wsparcie dla URI IMAPS
 Name:		perl-URI-imaps
