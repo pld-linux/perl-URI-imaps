@@ -8,7 +8,7 @@ Summary:	URI::imaps - Support IMAPS URI
 Summary(pl.UTF-8):	URI::imaps - Wsparcie dla URI IMAPS
 Name:		perl-URI-imaps
 Version:	1.01
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
